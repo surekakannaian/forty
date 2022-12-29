@@ -149,9 +149,6 @@ animation-fill-mode: forwards;
   .c7 .overlay{
     background-color: #8c77e9;
   }
-  .c7 .image{
-    height: 340.5px;
-  }
   a{
     text-decoration: none;
     color: white;
@@ -164,9 +161,6 @@ animation-fill-mode: forwards;
     background-color: #ee8d55;
   }
   /*main r3*/
-  .row3  .c7 .image{
-  height: 341px;
-  }
   .row3  .c7 .overlay{
     background-color: #48d87f;
   }
