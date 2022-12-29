@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    
+}
+/* header */
+header{
+   background-image: url("images/home2.png");
+   background-position: center;
+}
+nav{
+  letter-spacing: 2.5px;
+    font-size: 13px;
+    background-color: rgb(36, 41, 67 );
+}
+nav .navbar-brand {
+  color: white;
+}
+nav .navbar-brand:hover {
+  color: aqua;
+}
+nav .navbar-nav li a{
+  color: #ffffff;
+}
+nav .navbar-nav li a:hover{
+  color: aqua;
+}
+/*modal*/
+.modal-content{
+    background-color:rgb(36, 41, 67);
+    color: white;
+}
+.modal-content .link{
+    text-align: center;
+}
+.modal-content .link h6{
+    font-size: 13px;
+}
+.modal-content .link a{
+    margin-top: 3%;
+}
+.modal-content .link hr{
+    width: 25%;
+    margin: auto;
+}
+.link a:hover{
+    color: aqua;
+}
+.link .btn-light:hover{
+    background-color: aqua;
+}
+.modal-content .btn i{
+    color: white;
+}
+.modal-content .btn i:hover{
+color: aqua;
+}
+/*master head*/
+
+@keyframes Animation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+.master-head{
+    padding: 11% 5%;
+    background-color:rgba(36, 41, 67, 0.95);
+   
+}
+.master-head p{
+    font-size: 13px;
+    letter-spacing: 3px;
+    animation-name: Animation;
+animation-duration: 3s;
+animation-timing-function: ease;
+animation-fill-mode: forwards;
+  
+}
+.master-head h1{
+font-size: 52px;
+animation-name: Animation;
+animation-duration: 3s;
+animation-timing-function: ease;
+animation-fill-mode: forwards;
+}
+.master-head .row button{
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 2% 5%;
+    color: white;
+    animation-name: Animation;
+animation-duration: 3s;
+animation-timing-function: ease;
+animation-fill-mode: forwards;
+}
+.master-head .row button i{
+    font-size: 20px;
+    width: 50px;
+}
+.master-head .row button:hover{
+    border-color: aqua;
+    color: aqua;
+}
+.master-head h1::after{
+  content: "";
+  background-color: #ffffff;
+  display: block;
+  height: 2px;
+  width: 95%;
+  margin-top: 3%;
+
+}
+/*main row1*/
+.r1 .container-fluid .row .c5 {
+    position: relative;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+   .row .c5:hover .overlay {
+    opacity: 0;
+  }
+  
+  .text {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+  .r1 .container-fluid .row .c7 {
+    position: relative;
+  }
+  .row .c7:hover .overlay {
+    opacity: 0;
+  }
+  .c7 .overlay{
+    background-color: #8c77e9;
+  }
+  .c7 .image{
+    height: 340.5px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  /* main r2*/
+  .row2  .c7 .overlay{
+    background-color: #f06060;
+  }
+  .row2  .c5 .overlay{
+    background-color: #ee8d55;
+  }
+  /*main r3*/
+  .row3  .c7 .image{
+  height: 341px;
+  }
+  .row3  .c7 .overlay{
+    background-color: #48d87f;
+  }
+  .row3  .c5 .overlay{
+    background-color: #2662b1;
+  }
+/* section 2*/
+.r2{
+  background-color:  #2a2f4a;
+}
+.r2 .container-fluid h2::after{
+  content: "";
+  background-color: #ffffff;
+  display: block;
+  height: 2px;
+  width: 18%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.r2 .container-fluid button{
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  padding: 1% 3%;
+  color: white;
+}
+
+form{
+  background-color: rgb(36, 41, 67 ) ;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+form input{
+  background-color: #2a2f4a ;
+  outline: none;
+  border: none;
+  height: 45px;
+}
+textarea{
+  background-color: #2a2f4a;
+  outline: none;
+  border: none;
+  height: 220px;
+}
+form button {
+padding: 1% 3%;
+}
+form .b1{
+  border: 2px solid #ffffff;
+  color:rgb(36, 41, 67 ) ;
+  letter-spacing: 2px;
+}
+form .b2{
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+form i{
+  color: #2a2f4a;
+  background-color: #ffffff;
+  height: 50%;
+font-size: 20px;
+padding: 2%;
+border-radius: 50%;
+}
+form .row .col-sm-7{
+  border-right: 0.01px solid gray;
+}
+form hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer{
+  background-color: #2a2f4a; ;
+}
+footer i{
+  background-color: #ffffff;
+  padding: 1%;
+  color: #2a2f4a;
+  border-radius: 50%;
+  margin-left: 1.5%;
+  margin-top: 5%;
+}
+footer small p{
+  margin-left: 1.5%;
+}
+small{
+  margin-left: 4%;
+  margin-top: 3%;
+  padding-bottom: 3%;
+}
+small .vl{
+  border-right: 1px solid gray;
+  height: 10px;
+  margin-top: 0.6%;
+  padding-left: 1%;
+}
+small a{
+  color: gray;
+  text-decoration: underline ;
+}
